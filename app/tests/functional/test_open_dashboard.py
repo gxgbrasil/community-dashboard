@@ -3,6 +3,7 @@ from selenium import webdriver
 
 
 class TestOpenDashboard(unittest.TestCase):
+    URL = 'http://localhost:5000/'
 
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -11,12 +12,12 @@ class TestOpenDashboard(unittest.TestCase):
         self.browser.close()
 
     def test_if_page_loads(self):
-        self.browser.get('http://localhost:5000/')
+        self.browser.get(self.URL)
         title = self.browser.title
         self.assertIn('Community Dashboard', title)
 
     def test_if_loads_dashboard(self):
-        self.browser.get('http://localhost:5000/')
+        self.browser.get(self.URL)
         urlname_field = self.browser.find_element_by_id('urlname')
         urlname_field.send_keys('GDG-BH')
 
@@ -26,10 +27,10 @@ class TestOpenDashboard(unittest.TestCase):
         community_name = self.browser.find_element_by_id('community_name')
         self.assertIn('GDG Belo Horizonte', community_name.text)
 
-#TODO test status code when is ok
-#TODO test what happen with 404 error
-#TODO test what happen with 503 error
-#TODO test content type
+    def test_when_try_access_inexistent_page(self):
+        self.browser.get(self.URL + 'inexistent')
+        page_not_found = self.browser.find_element_by_tag_name('h1')
+        self.assertIn('Page Not Found', page_not_found.text)
 
 
 if __name__ == '__main__':
