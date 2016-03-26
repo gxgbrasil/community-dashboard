@@ -7,6 +7,9 @@ class TestOpenDashboard(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
 
+    def tearDown(self):
+        self.browser.close()
+
     def test_if_page_loads(self):
         self.browser.get('http://localhost:5000/')
         title = self.browser.title
@@ -23,8 +26,11 @@ class TestOpenDashboard(unittest.TestCase):
         community_name = self.browser.find_element_by_id('community_name')
         self.assertIn('GDG Belo Horizonte', community_name.text)
 
-    def tearDown(self):
-        self.browser.close()
+#TODO test status code when is ok
+#TODO test what happen with 404 error
+#TODO test what happen with 503 error
+#TODO test content type
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=1)
