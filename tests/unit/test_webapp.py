@@ -44,3 +44,9 @@ class TestApplication(unittest.TestCase):
     def test_error_on_application(self, mock_app):
         mock_app.get("/test").status_code.return_value = 503
         mock_app.assert_called_with()
+
+    def test_should_return_page_with_group_info(self):
+        group_info_page = self.webapp.get('/group')
+        page = group_info_page.data
+        self.assertEqual(200, group_info_page.status_code)
+        self.assertIn('{\n  "name": "Google Developer Group - Belo Horizonte"\n}', page)
