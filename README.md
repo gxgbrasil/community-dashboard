@@ -2,7 +2,7 @@
 
 > Know more your communities
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master/build_image)](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master)
 
 Know more about your communities from [Meetup.com](http://meetup.com). You may just type the URL (after [meetup.com/]((http://meetup.com))). Have fun! [Community Dashboard](http://communitydashboard.heroku.com)
 
