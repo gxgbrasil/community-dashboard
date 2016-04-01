@@ -1,5 +1,7 @@
 env/
 *.pyc
 .idea/
-app/tests/functional/.cache/
-app/tests/unit/.cache/
+tests/functional/.cache/
+tests/unit/.cache/
+tests/unit/cassettes/
+

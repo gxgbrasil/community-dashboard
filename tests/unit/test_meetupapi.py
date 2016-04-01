@@ -1,9 +1,9 @@
-import unittest
 from app.meetupapi.connection import MeetupAPI
 from syntaxsugar import SyntaxSugar
+from vcr_unittest import VCRTestCase
 
 
-class TestMeetupAPI(unittest.TestCase):
+class TestMeetupAPI(VCRTestCase):
 
     def test_get_group_information(self):
         meetup = MeetupAPI()
