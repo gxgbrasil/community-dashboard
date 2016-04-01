@@ -4,11 +4,12 @@
 
 [![Build Status](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master/build_image)](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master)
 
-Know more about your communities from [Meetup.com](http://meetup.com). You may just type the URL (after [meetup.com/]((http://meetup.com))). Have fun! [Community Dashboard](http://communitydashboard.heroku.com)
+Know more about your communities from [Meetup.com](http://meetup.com). Using data from this platform is possible to get some metrics about
+You may just type the URL (after [meetup.com]((http://meetup.com))). Have fun! [Community Dashboard](http://communitydashboard.heroku.com)
 
 ## Meetup API Access
 
-To retrieve the information available on groups of [meetup.com]((http://meetup.com) you need to get an [new API key](https://secure.meetup.com/meetup_api/key/). After this, save as environment variable $MEETUPAPIKEY with the value of you API key.
+To retrieve the information available on groups of [meetup.com](http://meetup.com) you need to get an [new API key](https://secure.meetup.com/meetup_api/key/). After this, save as environment variable $MEETUPAPIKEY with the value of you API key.
 
 ## Requirements
 
@@ -45,9 +46,10 @@ python -m unittest tests.functional
 
 ## Credits
 
-- Ana Paula Gomes: idea and development
-- Carlysson: responsible for the great design of this application.
+- [Ana Paula Gomes](https://br.linkedin.com/in/anapaulagomess): idea and development
+- [Carlyson Oliveira](https://dribbble.com/carlyson): responsible for the great design of this application
 
-## License
+## Many thanks
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+- Google Developer Groups Brazil
+- [Felipe Dornelas](https://github.com/felipead)
