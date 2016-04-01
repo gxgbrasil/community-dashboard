@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-class SyntaxSugar:
+class MeetupApiFixtures:
 
     @staticmethod
     def group_by_urlname():
