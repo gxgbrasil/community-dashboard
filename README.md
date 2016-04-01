@@ -47,7 +47,7 @@ python -m unittest tests.functional
 ## Credits
 
 - [Ana Paula Gomes](https://br.linkedin.com/in/anapaulagomess): idea and development
-- [Carlyson Oliveira](https://dribbble.com/carlyson): responsible for the great design of this application
+- [Carlyson Oliveira](https://br.linkedin.com/in/carlyson): responsible for the great design of this application
 
 ## Many thanks
 
