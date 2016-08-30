@@ -1,4 +1,5 @@
 import unittest
+import os
 from selenium import webdriver
 
 
@@ -6,7 +7,9 @@ class TestOpenDashboard(unittest.TestCase):
     URL = 'http://localhost:5000/'
 
     def setUp(self):
-        self.browser = webdriver.Chrome()
+        driver = '/usr/local/bin/driver'
+        os.environ['webdriver.chrome.driver'] = driver
+        self.browser = webdriver.Chrome(driver)
         self.urlname = 'GDG-BH'
 
     def tearDown(self):
