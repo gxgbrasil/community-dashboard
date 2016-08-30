@@ -1,5 +1,6 @@
 from flask import render_template, jsonify, request
 from app import app
+from meetupapi import MeetupAPI
 
 
 @app.route('/')
@@ -14,7 +15,8 @@ def dashboard():
 
 @app.route('/group')
 def group():
-	return jsonify({"name": "Google Developer Group - Belo Horizonte"})
+	meetup_api = MeetupAPI()
+	return jsonify(meetup_api.get_group('GDG-BH'))
 
 
 @app.errorhandler(404)
