@@ -6,7 +6,7 @@ class TestOpenDashboard(unittest.TestCase):
     URL = 'http://localhost:5000/'
 
     def setUp(self):
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Chrome()
         self.urlname = 'GDG-BH'
 
     def tearDown(self):
