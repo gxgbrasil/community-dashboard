@@ -8,15 +8,15 @@
           </h1>
           <h3 class="blue">Know more about your community</h3>
 
-          <div class="center aligned grid column">
+          <form action="{{ url_for('dashboard') }}" method="get">
               meetup.com/
-              <input type="text" id="urlname" placeholder="urlname">
-            <div class="center aligned grid column">
-              <a class="ui huge button" href="dashboard">
-              <i id="go" class="right arrow icon"></i>
-              </a>
-            </div>
-          </div>
+              <input type="text" id="urlname" name="urlname" placeholder="type your meetup urlname"/>
+              <div class="center aligned grid column">
+                  <button class="ui huge button" type="submit">Go!</button>
+              </div>
+          </form>
+
+
       </div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-from flask import render_template, jsonify
+from flask import render_template, jsonify, request
 from app import app
 
 
@@ -7,9 +7,9 @@ def index():
 	return render_template('index.html')
 
 
-@app.route('/dashboard')
+@app.route('/dashboard/', methods=['GET'])
 def dashboard():
-	return render_template('dashboard.html')
+	return render_template('dashboard.html', urlname=request.args['urlname'])
 
 
 @app.route('/group')
