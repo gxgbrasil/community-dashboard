@@ -7,7 +7,7 @@ class TestOpenDashboard(unittest.TestCase):
     URL = 'http://localhost:5000/'
 
     def setUp(self):
-        driver = '/usr/local/bin/driver'
+        driver = '/usr/local/bin/chromedriver'
         os.environ['webdriver.chrome.driver'] = driver
         self.browser = webdriver.Chrome(driver)
         self.urlname = 'GDG-BH'
