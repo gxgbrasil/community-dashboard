@@ -1,2 +1,1 @@
-from test_meetupapi import TestMeetupAPI
 from test_webapp import TestApplication
