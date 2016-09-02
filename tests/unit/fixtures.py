@@ -3,6 +3,7 @@
 
 
 class MeetupApiFixtures:
+
     @staticmethod
     def group_by_urlname():
         return {

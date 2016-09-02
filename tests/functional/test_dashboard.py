@@ -20,7 +20,7 @@ class TestOpenDashboard(unittest.TestCase):
         title = self.browser.title
         assert 'Community Dashboard' in title
 
-    def test_should_loads_groupname_as_url_on_dashboard(self):
+    def test_should_loads_group_name_as_url_on_dashboard(self):
         self.browser.get(self.URL)
         urlname_field = self.browser.find_element_by_id('urlname')
         urlname_field.send_keys(self.urlname)
@@ -40,8 +40,8 @@ class TestOpenDashboard(unittest.TestCase):
         community_name = self.browser.find_element_by_id('community-name')
         assert self.urlname in community_name.text
 
-    def test_should_return_page_not_found_when_try_access_inexistent_page(self):
-        self.browser.get(self.URL + 'inexistent')
+    def test_should_return_page_not_found_when_try_access_nonexistent_page(self):
+        self.browser.get(self.URL + 'nonexistent')
         page_not_found = self.browser.find_element_by_tag_name('h1')
         assert 'Page Not Found' in page_not_found.text
 
