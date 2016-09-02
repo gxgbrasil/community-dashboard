@@ -37,7 +37,7 @@ class TestApplication(unittest.TestCase):
 
     def test_page_not_found(self):
         page_not_found = self.webapp.get("/test")
-        self.assertEqual(404, page_not_found.status_code)
+        assert 404 == page_not_found.status_code
 
     def test_should_receive_urlname_from_index_page(self):
         with app.test_request_context('/dashboard/?urlname=' + self.urlname):
