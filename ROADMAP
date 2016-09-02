@@ -1,14 +1,13 @@
-Graficos:
+Graphs:
 
 - URL name
--- Nome da comunidade
+-- Community name
 
-- Eventos
--- Participantes
--- No show
+- Events
+-- Members
 
-- Participantes
--- Numero de participantes
--- Interesses
--- Nome dos participantes
---- Genero
+- Members
+-- Number of members
+-- Topics of interests
+-- Name
+--- Gender (predict with genderize.io)
