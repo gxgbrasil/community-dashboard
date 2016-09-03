@@ -2,9 +2,7 @@
 
 > Know more your communities
 
-[![Build Status](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master/build_image)](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master)
-
-![Heroku](https://heroku-badge.herokuapp.com/?app=communitydashboard)
+[![Build Status](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master/build_image)](https://snap-ci.com/anapaulagomes/community-dashboard/branch/master) ![Heroku](https://heroku-badge.herokuapp.com/?app=communitydashboard)
 
 Know more about your communities from [Meetup.com](http://meetup.com). Using data from this platform is possible to get some metrics about
 You may just type the URL (after [meetup.com]((http://meetup.com))). Have fun! [Community Dashboard](http://communitydashboard.heroku.com)
