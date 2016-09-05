@@ -3,5 +3,5 @@ env/
 .idea/
 tests/functional/.cache/
 tests/unit/.cache/
-tests/unit/cassettes/
+tests/unit/fixtures/cassettes/
 

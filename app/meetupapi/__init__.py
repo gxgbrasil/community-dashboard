@@ -1,1 +1,1 @@
-from connection import MeetupAPI
+from connection import MeetUpAPI

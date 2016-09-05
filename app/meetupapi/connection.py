@@ -2,7 +2,7 @@ import requests
 import os
 
 
-class MeetupAPI:
+class MeetUpAPI:
 
     BASE_URL = "https://api.meetup.com/"
 
