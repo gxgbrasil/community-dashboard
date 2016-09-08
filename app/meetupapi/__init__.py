@@ -1,1 +1,1 @@
-from connection import MeetUpAPI
+from data_retrieve import MeetUpAPI

@@ -4,4 +4,4 @@ env/
 tests/functional/.cache/
 tests/unit/.cache/
 tests/unit/fixtures/cassettes/
-
+**/.DS_Store

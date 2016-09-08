@@ -24,9 +24,15 @@ class MeetUpAPI:
         url = self.url_compose("/members/")
         return self.request(url, params=params)
 
+    def rsvps(self, urlname, event_id):
+        params = {"group_urlname": urlname, "page": 500}
+        url = self.url_compose("/2/events/" + event_id + "/rsvps")
+        return self.request(url, params=params)
+
+    #TODO implement the pagination
     def request(self, url, params):
         response = requests.get(url, params=params)
         return response.json()
 
-    def url_compose(self, parameters):
-        return self.BASE_URL + parameters + "?key=" + self.key
+    def url_compose(self, endpoint):
+        return self.BASE_URL + endpoint + "?key=" + self.key
