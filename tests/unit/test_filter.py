@@ -31,3 +31,10 @@ class TestFilter(unittest.TestCase):
         events_data = self.meetup.events(self.urlname)
         events_info = self.filter.events(events_data)
         assert len(events_info) == 57
+
+    @my_vcr.use_cassette()
+    def test_should_receive_attendance_status_from_rsvps(self):
+        rsvps_data = self.meetup.rsvps(self.urlname, '218868742')
+        rsvps_attendance_status = self.filter.rsvps(rsvps_data)
+
+        assert len(rsvps_attendance_status) == 100
