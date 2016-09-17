@@ -1,0 +1,52 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: https://api.meetup.com/GDG-BH?page=500
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6WWb2/bNhDGvwqhN9sAx7L11zKKAsniJgWGpUiCDtgwCLTEWEwlnkZRTpPCH2hf
+        YW/7xXoUpcSWu8WzjACxTtTvjs8dH/mLxVNrPg2diR+6zsgStGDW3LoAWOWMnLM1y6FksiIXEuqS
+        nJAzDJBLkPwJhGLWyMq5+IRPZEqVc9t+eHgYF4ypuhwnUNgX5xcnZ5c2Lqtl3rGbGIZSViWSl4qD
+        wPCb8m0/q0lakR/xkZ96mcnXv0ldkJWsSyAllZRARWhJ+WcQNMXvSGdiDfmapSBZRf6qGakrWhBa
+        EcUSATmsONXrSJsXCwZyKlIJPB11wdMP7yu8+O12RE7LkizEigs2wqeEkoxArSStxuQdyIIWmLUu
+        qObUgqcUyc3fbh14lwCB5T1TfA16BUZwA4rnGZV4ITKW8AL5iMObkmO0lIDrMcBx60ipKP6viAC9
+        PmFcNaC7Rhi6ZFJRYkon5dd/ljlPsMg3dvkWVU8ko4rppnvTaeC7s1kwmUwwztUjtmGvvwnUuNXm
+        1rVuNyQ0508sjdsbcdvWM0mfeI4rKoV8DODXe+AiLiDVl9hQgaE1r/iS5yZZWevaNJUqa34yjcaR
+        o1PgPJx47jjyRlbBCtxPheX6vj+yQK6owPTSmn8xo+tNJ7NZFLzM7qmg5GcqAQeTkmv2xARKcwMU
+        ZcNMSw6mtjIDBR3F8WZe6IQh6pDxVYZL4925blZXTjvbeos8aSbc3LBNmbZrT21mO3YHeeaO70u2
+        6rJ+l+0dyjaX+2iV1cVyWNkGsU9+LLWwZrHWkFYsxgP9eh5rsxlZDxl8z1IQtNLnO97phOf5jhvM
+        IvfYTiBfKDuyJ7in9LkRz9jXG3EoGo/NPvaYJuxiDWEfbHrQrP2fLRhZn9hjT2V/GoThzHH+W2X3
+        lZpZUzF7UbnDvq7yoehG5T7231U+FNuqvAc+TOX9LFplha6Nrtl4UMEkmq59QyH+QOscECbYZxUb
+        ctsFy3FdZ+o7QWC9vHnPL8j54uO7xc0tOVv8ckUur67f/3716+2C/DDV6x5RZ1mtS+O/1jx0TWZt
+        heHM9Sbmg29clcRwd1cxba34gtcfrDJBd16BNnRThOs9575lSaYNPAOpeiGMxNuhTdtbNOY/uoMb
+        hU7k+gNHKkQbovZs6+C22OEj1aHNwe1hjx+pDtsd3D54wEhtKxtG/jBLDG3PDtDqd5VF7HBL7NAv
+        ym5hj7fEDrut7DZ4gCV2Nuj4ke863rCZde0lmkqyZYMtdvjMdmhjgz3s8TPbYTsb7IOHz6zvBqHj
+        +8GwmdU/TCY7yrbYIb+ndtFG2R72+JntsJ2yffBhyu4Xb23+3HwDW/38qq0NAAA=
+    headers:
+      cf-ray: [2dd5e3a9c95d4a4e-GRU]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-length: ['1016']
+      content-type: [application/json;charset=utf-8]
+      date: ['Mon, 05 Sep 2016 01:25:47 GMT']
+      etag: ['"1c216826acb4ffd67d181b44b4d68683"']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=dec7d23762ac5c6a14af72e9f093c2d5c1473038747; expires=Tue,
+          05-Sep-17 01:25:47 GMT; path=/; domain=.meetup.com; HttpOnly']
+      vary: ['Accept-Encoding,User-Agent,Accept-Language']
+      x-accepted-oauth-scopes: [basic]
+      x-meetup-request-id: [a4e249ef-71a4-4bf3-83ba-2c80cf8af1f7]
+      x-meetup-server: [api7]
+      x-oauth-scopes: [basic]
+      x-ratelimit-limit: ['30']
+      x-ratelimit-remaining: ['29']
+      x-ratelimit-reset: ['10']
+    status: {code: 200, message: OK}
+version: 1

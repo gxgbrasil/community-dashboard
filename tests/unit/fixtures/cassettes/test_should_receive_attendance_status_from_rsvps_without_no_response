@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: https://api.meetup.com/GDG-BH/events/221804615/rsvps?page=500
+  response:
+    body:
+      string: !!binary |
+        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
+        Kri3jJsAAA==
+    headers:
+      cf-ray: [2e387bba41c90ac6-SCL]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json;charset=utf-8]
+      date: ['Sat, 17 Sep 2016 00:36:21 GMT']
+      etag: ['"102db57b8e091a372f0bbdb8a1e5ab04"']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=d0503ac179e0aecb5a29cc4b902b430881474072580; expires=Sun,
+          17-Sep-17 00:36:20 GMT; path=/; domain=.meetup.com; HttpOnly']
+      vary: ['Accept-Encoding,User-Agent,Accept-Language']
+      x-accepted-oauth-scopes: [basic]
+      x-meetup-request-id: [12596b7c-38df-4796-9a91-44bcb1dc09ce]
+      x-meetup-server: [api5]
+      x-oauth-scopes: [basic]
+      x-ratelimit-limit: ['30']
+      x-ratelimit-remaining: ['29']
+      x-ratelimit-reset: ['10']
+    status: {code: 200, message: OK}
+version: 1

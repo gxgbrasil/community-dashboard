@@ -1,0 +1,57 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: https://api.meetup.com/GDG-BH/events/218868742/rsvps?page=500
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6RSy27bMBD8FYJn2bIoybJ1qxHAOebeg0BLG4mJyGX5SOsG/veu5Mg9JECB+kbs
+        zswOd/b7O28dyAAdr7Mi2+5EkVfbzWaT8Gi7L+sOvEXjgdf8DJ4nvI/gg+c19eANTOD1O1fE4yLb
+        7ba7qhAEMlJPjCcczxocG2T7KjvQqqUeyTTOv9mmxTjRM1IKasLT6CoT5TR4thTaBp+fPRBoVYm5
+        eiEDDqNdpmZUL6tcENqNH1OPD8fV4fGviyNiPwJ7ILsjWnCeHScJtmIHKrBHdOo3mgDE+DngVwTq
+        aNCn6VVn5TZP+Asq02jsJn2CGP7hq7EDBlzcFUUp8u1uT4RB9QPtshmVeSXOEIKt03RGe7HWACFa
+        H2RQ7bpF/dFI5w2n+3STZmmXLho32fWLhZ5Gz+i7pGnnn2XDEPXpLtmrwmfhs50Wd72fhJ+kh4by
+        +/cUfrksUdwuIC8FHexe3PL+ZiR7knGU7Ih6vtmTmmI9SCWpRTJMRxWQoevjOGDClPkRFQSZsDY6
+        hV4ymGB2pJomj8CkleoXGtlJZtGxAK3BEXsl18v6Fz+C/lqJfVn8b+bX76V5KmiN8hb6Tfee0PUf
+        AAAA///tmtFO2zAUhl/F4hJttE7txLkcEwy0dZPGpF3twiRusUjjyUnQNomn4WLiOfpiO27rJI3T
+        tSwFdVKUC0ogXwvH+fqf466zl9+66M2FJ7uilwiXvKz8qoSbS+8+z9H9SjjgDajIj4V4blQGX3Nd
+        iHtYGY7dqEdIm93K873dersdtN1gXWCPhbgmt1jPH9GYT3lyM39YLNp1/xBMGBsG/t+rsvVGvoYj
+        gqP0j+XuwT+Wbf3TRP9LaRrolX8c8o7+aSvORv9MeJK1CCgY0lHoYUdA9fO9gHoBHbSAMB0RTAOv
+        ildnEJEihd4nQqZltjpLpyK9EVIrFAv0FrJTkfP57/kDpCsIXYmEJ0GpQqc8hWtjeKB5JhMbuBQE
+        Lm5ebqEXDAERTV3LRLjxCjoTjEO2JV7hbZ6IwBMY/o2V3lbc7UXfmV3qrYHeXPid0VZvTfKOenOf
+        5+l680Oftumtfr7XW6+3w9abWXdsOKr09qG45Rn6KpNbsbiF1kqCfUx8EjKvU/zB0CUFA9/6oYTu
+        of2y6CXCJT9H+7XJDywIQxq09F/V+d4PvR8O2w8BppR4NT+MuY5EkqCPPIukGQ4p9Ca5a+nDvGCE
+        w8CoolMfFsI7vg9HGVQsdw99mGXboNJEd+jDLHoVVBzyC/Zh/Zi7F9F/L6LQGxI6pJWHPqtYyynI
+        J81lyjUoSZbd2OAYnaW5Ft+1SEWhEc/RBbyWyc9X6FzDGngt0riq++LHKp9xnUOvFiNYWOj0An3S
+        U57KX0KfoOOBO+XGjHoBZR3tFgwmcNTsZrl7sJtll1PuBrpDzLJoO+VukjvFLK0Sc3WklK3A0dNH
+        34TituhVne+N1xvvoI2HSQC3FCGu8k61hFJY2V2pAsHKLWJuNupiga5klosZNw8v04nSs+Ugyoyf
+        Ls/H706QuaKYoYhrXm3sqcbGnplIaQOUU5nz5ARWTSbSOwVZL4ZfnJQeFSjns+v54wyZ+VUmuRl1
+        xWYDERSsEiBDac12okJgax0XMlXuWMvslIV0tCUtbp0PiQGDoza1t9w9jLUsu0yLDXSHsZZF27TY
+        JL/kWIt54dBr3TYsz/fu7N154O70aEj8Wtv6xXzSAY2hds5MK2QMm7Xd8QMLDP48VotyJXcPUc6y
+        7cSsie4Q5Sx6NTFzyM85Mfv2B1GZK++RJQAA
+    headers:
+      cf-ray: [2e386d21eb50096f-SCL]
+      connection: [keep-alive]
+      content-encoding: [gzip]
+      content-type: [application/json;charset=utf-8]
+      date: ['Sat, 17 Sep 2016 00:26:23 GMT']
+      etag: ['"21b0cfe14c5c20d8ec6db2965264c16a"']
+      server: [cloudflare-nginx]
+      set-cookie: ['__cfduid=d26cee2c5ae1064fcf1d4b6b9e48ac7dc1474071982; expires=Sun,
+          17-Sep-17 00:26:22 GMT; path=/; domain=.meetup.com; HttpOnly']
+      vary: ['Accept-Encoding,User-Agent,Accept-Language']
+      x-accepted-oauth-scopes: [basic]
+      x-meetup-request-id: [17faa5d8-708d-4f90-99f9-cbf9b35a9234]
+      x-meetup-server: [api1]
+      x-oauth-scopes: [basic]
+      x-ratelimit-limit: ['30']
+      x-ratelimit-remaining: ['29']
+      x-ratelimit-reset: ['10']
+    status: {code: 200, message: OK}
+version: 1
