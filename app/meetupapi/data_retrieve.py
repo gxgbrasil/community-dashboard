@@ -12,22 +12,26 @@ class MeetUpAPI:
     def group(self, urlname):
         params = {"page": 500}
         url = self.url_compose(urlname)
-        return self.request(url, params=params)
+        result = self.request(url, params=params)
+        return result
 
     def events(self, urlname):
         params = {"group_urlname": urlname, "page": 500, "status": "past"}
         url = self.url_compose("/2/events/")
-        return self.request(url, params=params)
+        result = self.request(url, params=params)
+        return result
 
     def members(self, urlname):
         params = {"group_urlname": urlname, "page": 500}
         url = self.url_compose("/members/")
-        return self.request(url, params=params)
+        result = self.request(url, params=params)
+        return result
 
     def rsvps(self, urlname, event_id):
-        params = {"group_urlname": urlname, "page": 500}
-        url = self.url_compose("/2/events/" + event_id + "/rsvps")
-        return self.request(url, params=params)
+        params = {"page": 500}
+        url = self.url_compose(urlname + "/events/" + event_id + "/rsvps")
+        result = self.request(url, params=params)
+        return result
 
     #TODO implement the pagination
     def request(self, url, params):
