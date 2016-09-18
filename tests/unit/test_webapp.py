@@ -5,7 +5,8 @@ import flask
 
 class TestApplication(unittest.TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(self):
         self.webapp = app.test_client()
         self.home = self.webapp.get('/')
         self.urlname = 'GDG-BH'
