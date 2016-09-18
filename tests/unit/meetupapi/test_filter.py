@@ -23,8 +23,9 @@ class TestFilter(unittest.TestCase):
         group_info = self.filter.group_basic_info(group_data)
         assert group_info['id'] == 17205732
         assert group_info['name'] == 'Google Developers Group - Belo Horizonte'
+        assert group_info['urlname'] == 'GDG-BH'
         assert group_info['created'] == 1411653886000
-        assert len(group_info.keys()) == 3
+        assert len(group_info.keys()) == 4
 
     @my_vcr.use_cassette()
     def test_should_give_list_of_events(self):

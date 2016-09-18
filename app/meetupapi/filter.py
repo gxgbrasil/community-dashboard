@@ -3,6 +3,7 @@ class Filter:
     def group_basic_info(self, group_data):
         group_info = {'id':         group_data['id'],
                       'name':       group_data['name'],
+                      'urlname':       group_data['urlname'],
                       'created':    group_data['created']}
         return group_info
 
